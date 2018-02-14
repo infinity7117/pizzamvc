@@ -1,25 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EFDC7547-6362-4745-A96E-73475D44771B}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "framework", "framework", "{2588CAFD-487A-4138-9B17-8B3863B4056A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{44B96078-E585-41B9-9A52-C7E6B1BEA193}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "publish", "publish", "{3DC2BF9F-B5FE-47F5-8BF1-36434C36B01B}"
-	ProjectSection(SolutionItems) = preProject
-		publish\Build.cmd = publish\Build.cmd
-		publish\Build.fsx = publish\Build.fsx
-		publish\Pizza.nuspec = publish\Pizza.nuspec
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza.Framework", "framework\Pizza.Framework\Pizza.Framework.csproj", "{C4AD1D8C-B782-4EE4-9AB0-36BA8C46D98E}"
 EndProject
@@ -125,7 +111,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3DC2BF9F-B5FE-47F5-8BF1-36434C36B01B} = {2588CAFD-487A-4138-9B17-8B3863B4056A}
 		{C4AD1D8C-B782-4EE4-9AB0-36BA8C46D98E} = {2588CAFD-487A-4138-9B17-8B3863B4056A}
 		{22932C64-3887-49DD-B430-0B050DA4C2F3} = {2588CAFD-487A-4138-9B17-8B3863B4056A}
 		{7D3E5BF6-1CCD-4AE9-A83E-B5802B051CA2} = {44B96078-E585-41B9-9A52-C7E6B1BEA193}

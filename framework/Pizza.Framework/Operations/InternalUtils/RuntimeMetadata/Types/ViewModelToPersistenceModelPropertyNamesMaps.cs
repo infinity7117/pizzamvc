@@ -8,6 +8,8 @@ namespace Pizza.Framework.Operations.InternalUtils.RuntimeMetadata.Types
         public ReadOnlyDictionary<string, string> AllProperties { get; }
 
         public ViewModelToPersistenceModelPropertyNamesMaps(Dictionary<string, string> allProperties)
-            => this.AllProperties = new ReadOnlyDictionary<string, string>(allProperties);
+        {
+            this.AllProperties = new ReadOnlyDictionary<string, string>(allProperties);
+        }
     }
 }
